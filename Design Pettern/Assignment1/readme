@@ -1,0 +1,16 @@
+#FizzBuzz.java:
+    1.Comment smell
+    2.Inappropriate naming smell(function name say wasn't meaningful)
+    3.Long method smell(unnecessary nested if-else loop )
+
+ #PlaintextToHtmlConverter:
+    1.comment smell
+    2.switch statements(switch case is replaced by if-else)
+    3.Long method smell(basicHtmlEncode method)
+    4.temporary field method ( int i should have been inside the scope charConverting())
+
+   #TriviaGame
+    1.Inappropriate naming smell( add() to addPlayer() )
+    2.Duplicate code (correctingAns(), outsideofPenaltyBox())
+    3.Dead code (method howManyPlayers())
+    4.Long Method smell( method roll, wasCorrectlyAnswered)
